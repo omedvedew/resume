@@ -144,7 +144,7 @@ li:last-child {
     padding: 10px;
 }
 
-details:hover, summary:hover {
+summary:hover {
     cursor: pointer;
     color: rgb(150, 200, 250);
 }
