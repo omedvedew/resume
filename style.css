@@ -222,3 +222,26 @@ summary:focus {
         margin-top: 30px;
     }
 }
+
+@media print {
+    .photo {
+        display: block;
+        width: 200px;
+        height: 200px;
+        margin-bottom: 0;
+    }
+
+    * {
+        color: black;
+    }
+
+    .contacts {
+        padding-top: 0px;
+        margin-top: 0;
+    }
+
+    .global {
+        padding: 0;
+        margin: 0;
+    }
+}
